@@ -1,0 +1,26 @@
+{
+  "name": "longestSubstring",
+  "version": "1.0.0",
+  "description": "A NPM package to return the longest non repetative substring in a string",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "nyc mocha --require babel-core/register",
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "standard": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goutham-asu/longestSubstring.git"
+  },
+  "keywords": [
+    "algorithms",
+    "strings"
+  ],
+  "author": "Goutham Hanumanthappa Manjunatha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goutham-asu/longestSubstring/issues"
+  },
+  "homepage": "https://github.com/goutham-asu/longestSubstring#readme"
+}
